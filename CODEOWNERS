@@ -1,0 +1,15 @@
+# Default owners
+* @AshishSrungaram
+
+# Backend
+/src/backend/ @AshishSrungaram
+
+# Frontend
+/src/frontend/ @AshishSrungaram
+
+# Infra
+/.github/ @AshishSrungaram
+Dockerfile @AshishSrungaram
+
+# Database
+/db/ @AshishSrungaram
