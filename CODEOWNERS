@@ -1,15 +1,6 @@
-# Default owners
+# Default owner for all files
 * @AshishSrungaram
 
-# Backend
-/src/backend/ @AshishSrungaram
-
-# Frontend
-/src/frontend/ @AshishSrungaram
-
-# Infra
+# Explicitly include repository admin files
+/CODEOWNERS @AshishSrungaram
 /.github/ @AshishSrungaram
-Dockerfile @AshishSrungaram
-
-# Database
-/db/ @AshishSrungaram
