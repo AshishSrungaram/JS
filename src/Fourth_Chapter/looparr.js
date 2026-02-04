@@ -22,3 +22,8 @@ for (let i = 0; i < name.length; i++){
 }
 console.log(name);
 
+let nams = ["Chantal", "John", "Maxime", "Bobbi", "Jair"];
+for (let name of nams){
+    console.log(name);
+}
+
