@@ -1,6 +1,7 @@
 // setup two variables contaning number values
-let number1 = 25;
-let number2 = 5;
+const number1 = 25;
+const number2 = 5;
+
 // setup a variable to hold an operator
 let operatorValue = "*";
 
@@ -30,4 +31,20 @@ function checkSum(number1, number2 , operatorValue) {
 }
 // Within console.log(), call the function using your variables and output
 // the response to the console.
+console.log(checkSum(number1, number2, operatorValue));
+
+// change the operator value to "+"
+operatorValue = "+";
+console.log(checkSum(number1, number2, operatorValue));
+
+// change the operator value to "-"
+operatorValue = "-";
+console.log(checkSum(number1, number2, operatorValue));
+
+// change the operator value to "+"
+operatorValue = "/";
+console.log(checkSum(number1, number2, operatorValue));
+
+// change the operator value to "%"
+operatorValue = "%";
 console.log(checkSum(number1, number2, operatorValue));
